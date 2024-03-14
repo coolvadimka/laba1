@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "laba1", "laba1\laba1.csproj", "{1A6729B9-1670-4389-8272-3622A47AE1BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mylabtest", "mylab\mylabtest.csproj", "{C592ABAB-D3EC-4EF7-A7B1-126219F3C017}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A6729B9-1670-4389-8272-3622A47AE1BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A6729B9-1670-4389-8272-3622A47AE1BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A6729B9-1670-4389-8272-3622A47AE1BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A6729B9-1670-4389-8272-3622A47AE1BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C592ABAB-D3EC-4EF7-A7B1-126219F3C017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C592ABAB-D3EC-4EF7-A7B1-126219F3C017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C592ABAB-D3EC-4EF7-A7B1-126219F3C017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C592ABAB-D3EC-4EF7-A7B1-126219F3C017}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FEEA429-6B22-4013-A845-FEEE5017235E}
+	EndGlobalSection
+EndGlobal
