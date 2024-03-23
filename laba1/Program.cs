@@ -11,8 +11,8 @@ internal static class Program
     public static void Main(string[] args)
     {
         //1 задание
-        var p1 = new vadim(5, 6);
-        var p2 = new vadim(5, 6);
+        var p1 = new vadim(-4, -22);
+        var p2 = new vadim(1, 2);
         var p3 = p1 - p2;
         var p4 = -p1;
         Console.WriteLine(p3.ToString());

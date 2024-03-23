@@ -45,9 +45,9 @@ public class Adecorator : Decorator
     public Adecorator(AmericanDateTime izm) : base(izm) { }
     public override string PrintCurrentDateTime()
     {
-        StringBuilder piska = new StringBuilder(izm.PrintCurrentDateTime());
-        piska.Append(" - Pindosi");
-        return piska.ToString();
+        StringBuilder Text = new StringBuilder(izm.PrintCurrentDateTime());
+        Text.Append(" - America");
+        return Text.ToString();
     }
 }
 
@@ -56,8 +56,8 @@ public class Edecorator : Decorator
     public Edecorator(EuropeanDateTime izm) : base(izm) { }
     public override string PrintCurrentDateTime()
     {
-        StringBuilder piska = new StringBuilder(izm.PrintCurrentDateTime());
-        piska.Append(" - Gayropa");
-        return piska.ToString();
+        StringBuilder Text = new StringBuilder(izm.PrintCurrentDateTime());
+        Text.Append(" - Europa");
+        return Text.ToString();
     }
 }

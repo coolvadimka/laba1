@@ -76,6 +76,10 @@ public class vadim
             return Convert.ToString(numerator / denominator);
             //Console.WriteLine(numerator / denominator);
         }
+        else if((numerator < 0 && denominator > 0) || (numerator > 0 && denominator < 0))
+        {
+            return Convert.ToString($"-{Math.Abs(numerator)} / {Math.Abs(denominator)}");
+        }
         else
         {
             return Convert.ToString($"{ numerator} / { denominator}");
